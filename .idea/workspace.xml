@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9b75bd39-f953-46f0-9434-1fe376bdb71c" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="SQL File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2sxUXZW63ybSnxDRu8qmxjfhrY0" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Database Script.weather.sql.executor&quot;: &quot;Run&quot;,
+    &quot;Database Script.weather_db.sql.executor&quot;: &quot;Run&quot;,
+    &quot;Python.DataRequest.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ExtractData.executor&quot;: &quot;Run&quot;,
+    &quot;Python.TransformData.executor&quot;: &quot;Run&quot;,
+    &quot;Python.loadData.executor&quot;: &quot;Run&quot;,
+    &quot;Python.transformData.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/FiRe/DataEngineering1&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
+    ],
+    &quot;RunConfigurationTargetLRU&quot;: [
+      &quot;e39a32b7-d1ff-406b-88bf-f11b2343e785&quot;,
+      &quot;e39a32b7-d1ff-406b-88bf-f11b2343e785/database/\&quot;weather_db\&quot;&quot;
+    ]
+  }
+}</component>
+  <component name="RunManager" selected="Database Script.weather.sql">
+    <configuration name="weather_db.sql" type="DatabaseScript" editBeforeRun="true" nameIsGenerated="true">
+      <script-file value="$PROJECT_DIR$/weather_db.sql" />
+      <script-mode>FILE</script-mode>
+      <data-source id="e39a32b7-d1ff-406b-88bf-f11b2343e785" />
+      <method v="2" />
+    </configuration>
+    <configuration name="weather.sql" type="DatabaseScript" editBeforeRun="true" singleton="false" nameIsGenerated="true">
+      <script-file value="$PROJECT_DIR$/weather.sql" />
+      <script-mode>FILE</script-mode>
+      <data-source id="e39a32b7-d1ff-406b-88bf-f11b2343e785" namespace="database/&quot;weather_db&quot;" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-cab1f2013843-4ae2d6a61b08-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-243.21565.199" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9b75bd39-f953-46f0-9434-1fe376bdb71c" name="Changes" comment="" />
+      <created>1739396759685</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1739396759685</updated>
+      <workItem from="1739396760862" duration="4459000" />
+      <workItem from="1739442354597" duration="5000" />
+    </task>
+    <servers />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/DataEngineering1$ExtractData.coverage" NAME="ExtractData Coverage Results" MODIFIED="1739397798943" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DataEngineering1$transformData.coverage" NAME="transformData Coverage Results" MODIFIED="1739400015411" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DataEngineering1$DataRequest.coverage" NAME="DataRequest Coverage Results" MODIFIED="1739397080926" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DataEngineering1$loadData.coverage" NAME="loadData Coverage Results" MODIFIED="1739400647307" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DataEngineering1$TransformData.coverage" NAME="TransformData Coverage Results" MODIFIED="1739397889460" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
