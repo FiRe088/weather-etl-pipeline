@@ -1,6 +1,6 @@
 import json
-from extractData import fetch_weather_data
-import pandas as pd
+from Scripts.extractData import fetch_weather_data
+
 
 def transform_data(data):
     if 'hourly' not in data:

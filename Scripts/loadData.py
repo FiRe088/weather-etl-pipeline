@@ -1,14 +1,15 @@
+import os
 import pandas as pd
 from sqlalchemy import create_engine
 from transformData import transform_data
-from extractData import fetch_weather_data
+from Scripts.extractData import fetch_weather_data
 
 # Database connection details
-DB_USER = 'postgres'
-DB_PASSWORD = 'root'
-DB_HOST = 'localhost'
-DB_PORT = '5432'
-DB_NAME = 'weather_db'
+DB_USER = os.getenv('DB_USER')
+DB_PASSWORD = os.getenv('DB_PASSWORD')
+DB_HOST = os.getenv('DB_HOST')
+DB_PORT = os.getenv('DB_PORT')
+DB_NAME = os.getenv('DB_NAME')
 
 # Create connection
 engine = create_engine(f'postgresql://{DB_USER}:{DB_PASSWORD}@{DB_HOST}:{DB_PORT}/{DB_NAME}')
