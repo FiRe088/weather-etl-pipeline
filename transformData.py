@@ -7,7 +7,7 @@ def transform_data(data):
         print('Invalid data format')
         return None
 
-    hourly_data = data["hourly"]
+    hourly_data = data['hourly']
     transformed_data = []
 
     for i in range(len(hourly_data['time'])):
