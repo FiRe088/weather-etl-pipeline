@@ -2,7 +2,7 @@ import os
 import pandas as pd
 from sqlalchemy import create_engine
 from transformData import transform_data
-from Scripts.extractData import fetch_weather_data
+from extractData import fetch_weather_data
 
 # Database connection details
 DB_USER = os.getenv('DB_USER')

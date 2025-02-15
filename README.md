@@ -17,5 +17,5 @@ This project extracts real-time weather data using Open-Meteo API, transforms it
 ## 🔥 How to Run
 ```bash
 pip install -r requirements.txt
-python etl_script.py
+python loadData.py
 ```

@@ -1,5 +1,5 @@
 import json
-from Scripts.extractData import fetch_weather_data
+from extractData import fetch_weather_data
 
 
 def transform_data(data):
